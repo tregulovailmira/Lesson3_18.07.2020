@@ -1,4 +1,4 @@
-div {
+.b1 {
     height: 100px;
     background-color: dodgerblue;
 
@@ -8,7 +8,10 @@ div {
 }
 
 .b2 {
+    height: 100px;
     background-color: rebeccapurple;
+
     margin: 50px;
+
     border: 5px solid red;
 }
