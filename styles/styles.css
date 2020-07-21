@@ -1,17 +1,99 @@
-table {
-    border: 1px solid black;
-    border-collapse: collapse;
+body {
+    background-color: rebeccapurple;
+
 }
 
-td {
-    border: 1px solid black;
-    padding: 5px 10px;
+.userCardContainer {
+    background-color: white;
+
+    width: 300px;
+
+    text-align: center;
+    box-sizing: border-box;
+    margin: 50% auto;
+    padding-bottom: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 52px -12px rgba(0,0,0,0.75);
+
 }
 
-thead {
-    background-color: gray;
+.userCardImageContainer {
+    padding: 30px 0;
+    box-sizing: border-box;
+
 }
 
-tbody > tr:nth-child(2n) {
-    background-color: lightgray;
+.userCardImageContainer > img {
+    border-radius: 50%;
+
+    height: 100px;
+    width: 100px;
+
+    object-fit: cover; /* для нормального отображения картинки во вписанной области */
+}
+
+.userCardName > h2 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.userCardName > p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.userCardInfoContainer {
+    font-family: 'Roboto', sans-serif;
+}
+
+.userCardInfo {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.userCardIcons{
+    margin-bottom: 20px;
+}
+
+.userCardIcon {
+    display: inline-block;
+    opacity: 0.65;
+}
+
+.userCardIcon > img {
+    width: 20px;
+}
+
+.userCardIcon > span {
+    display: block;
+}
+
+.userCardIcon + .userCardIcon {
+    margin-left: 60px;
+}
+
+.userCardButton > a{
+
+    display: inline-block;
+
+    width: 60%;
+    border-radius: 10px;
+
+    background-color: rebeccapurple;
+    margin: 0 auto;
+    padding: 10px 20px;
+
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+
+}
+
+.userCardButton > a:hover {
+    background-color: blueviolet;
+    color: #d6d6d6;
 }
