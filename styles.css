@@ -1,23 +1,17 @@
-.b1 {
-    box-sizing: border-box;
-    height: 100px;
-    width: 200px;
-    background-color: dodgerblue;
-
-    padding: 50px;
-    margin: 50px;
-
-
-    border: 5px solid red;
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
-.b2 {
-    box-sizing: border-box;
-    height: 100px;
-    width: 200px;
-    background-color: rebeccapurple;
+td {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
 
-    margin: 50px;
+thead {
+    background-color: gray;
+}
 
-    border: 5px solid red;
+tbody > tr:nth-child(2n) {
+    background-color: lightgray;
 }
