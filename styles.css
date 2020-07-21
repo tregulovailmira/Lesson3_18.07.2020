@@ -1,14 +1,20 @@
 .b1 {
+    box-sizing: border-box;
     height: 100px;
+    width: 200px;
     background-color: dodgerblue;
 
     padding: 50px;
+    margin: 50px;
+
 
     border: 5px solid red;
 }
 
 .b2 {
+    box-sizing: border-box;
     height: 100px;
+    width: 200px;
     background-color: rebeccapurple;
 
     margin: 50px;
